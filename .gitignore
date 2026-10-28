@@ -1,0 +1,33 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+
+# Archivos de configuración con secretos
+.env
+!.env.example
+
+# Base de datos local SQLite y almacenamiento de datos
+data/*.db
+data/
+*.db
+*.sqlite3
+
+# Caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE y Sistema Operativo
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
